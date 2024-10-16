@@ -39,16 +39,20 @@ Este proyecto implementa un sistema cliente-servidor utilizando **sockets** en P
    
    ### **2. Cliente**
 
-4.  Abre otra terminal y navega al directorio donde está el código del cliente.
-    
-5.  Ejecuta el siguiente comando:
-	 ```
-	  python Cliente.py
+1.  Abre otra terminal y navega al directorio donde está el código del cliente.
+2.  Edita el archivo Cliente.py y busca la línea 52 para editar la IP a la del dispositivo que funciona como servidor. Puedes averiguar la IP ejecutando en CMD el siguiente comando en la máquina servidor:
+    ```
+	ipconfig
 	```
     
-7.  Ingresa el **nombre de usuario** y presiona "Conectar".
+3.  Ejecuta el siguiente comando:
+	```
+	python Cliente.py
+	```
     
-8.  Una vez conectado, puedes:
+3.  Ingresa el **nombre de usuario** y presiona "Conectar".
+    
+4.  Una vez conectado, puedes:
     
     -   Escribir y enviar mensajes al servidor desde la interfaz.
     -   Recibir mensajes enviados por el servidor.
